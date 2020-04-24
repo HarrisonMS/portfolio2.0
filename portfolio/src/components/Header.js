@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<div className='headerContainer'>
 			<Link className='headerTitle' to='/'>
-				<p>Harrison Seaborn</p>
+				<p>Harrison Micheal Seaborn</p>
 			</Link>
 			<nav className='nav-link-cont'>
         <NavLink className='nav-link' to='/'>
