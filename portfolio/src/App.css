@@ -46,14 +46,10 @@
 		height: 60%;
 		font-size: .6rem;
   }
-  .home-container {
-    display: flex;
-    flex-flow: column nowrap;
-
-  }
 }
 
 .headerTitle {
+  
   font-size: 2.5em;
   font-family: 'Herr Von Muellerhoff', cursive;
 	color: #fff;
@@ -85,6 +81,7 @@
 
 	border-radius: 2px;
 }
+
 .home-container {
   font-family: 'Comfortaa', cursive;
   display: flex;
@@ -92,11 +89,12 @@
   align-items: center;
   background-color: black;
   color: white;
-  height: 100vh;
+  height: 90vh;
 }
 .home-left-cont {
   width: 50%;
   border-right: 2px solid white;
+
 }
 .home-right-cont {
   width: 50%;
@@ -107,4 +105,35 @@
 .home-h1 {
   font-size: calc(14px + 10vmin);
 }
+@media only screen and (max-width: 900px) {
+  .home-container {
+   display: flex;
+   flex-flow: column nowrap;
+   margin-top: 20%;
+  }
+  .home-left-cont {
+    height: 50%;
+    border-right: none;
+    border-bottom: 2px solid white;
+    width: 90%
+  }
+  .home-right-cont {
+    height: 50%;
+  }
+}
 
+.me-img {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 10px;
+  
+}
+.me-img:hover {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
