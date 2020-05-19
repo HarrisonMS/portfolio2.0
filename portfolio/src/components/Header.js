@@ -3,9 +3,9 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="headerContainer">
-      <Link className="headerTitle" to="/">
-        <p>Harrison Micheal Seaborn</p>
+    <header className="header-container">
+      <Link className="header-title" to="/">
+        <h1>Harrison Micheal Seaborn</h1>
       </Link>
       <nav className="nav-link-cont">
         <NavLink className="nav-link" to="/">
@@ -21,7 +21,7 @@ const Header = () => {
           Contact
         </NavLink>
       </nav>
-    </div>
+    </header>
   );
 };
 

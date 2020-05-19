@@ -27,61 +27,6 @@
   width: 50%;
 } */
 
-.headerContainer {
-	border-radius: 10px;
-	height: 10vh;
-	font-family: 'Comfortaa', cursive;
-	color: #ffff;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	text-decoration: none;
-	flex-wrap: wrap;
-}
-@media only screen and (max-width: 915px) {
-	.header-container {
-		display: flex;
-		width: 100%;
-		flex-direction: row;
-		height: 60%;
-		font-size: .6rem;
-  }
-}
-
-.headerTitle {
-  
-  font-size: 2.5em;
-  font-family: 'Herr Von Muellerhoff', cursive;
-	color: #fff;
-	text-decoration: none;
-}
-/* .headerTitle:hover {
-	font-size: 3.0rem;
-} */
-
-/*.nav-link-cont{
-	display: flex;
-	color: white;
-	color: #ffff;
-
-}
-*/
-.nav-link {
-  font-family: 'Comfortaa', cursive;
-	font-size: 1.2rem;
-	color: #ffff;
-	text-decoration: none;
-	padding: 10px;
-	margin-bottom: 5px;
-}
-.nav-link:hover {
-	font-size: 1.3rem;
-	background-color: white;
-	color: black;
-
-	border-radius: 2px;
-}
-
 .home-container {
   font-family: 'Comfortaa', cursive;
   display: flex;
