@@ -28,7 +28,7 @@
 } */
 
 .home-container {
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -39,7 +39,6 @@
 .home-left-cont {
   width: 50%;
   border-right: 2px solid white;
-
 }
 .home-right-cont {
   width: 50%;
@@ -52,15 +51,15 @@
 }
 @media only screen and (max-width: 900px) {
   .home-container {
-   display: flex;
-   flex-flow: column nowrap;
-   margin-top: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 20%;
   }
   .home-left-cont {
     height: 50%;
     border-right: none;
     border-bottom: 2px solid white;
-    width: 90%
+    width: 90%;
   }
   .home-right-cont {
     height: 50%;
@@ -68,17 +67,16 @@
 }
 
 .me-img {
-	width: 75%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10px;
-  
 }
 .me-img:hover {
-	width: 90%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }

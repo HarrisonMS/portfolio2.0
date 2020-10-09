@@ -8,9 +8,9 @@ const Header = () => {
         <h1>Harrison Micheal Seaborn</h1>
       </Link>
       <nav className="nav-link-cont">
-        <NavLink className="nav-link" to="/">
+        <Link className="nav-link" to="/">
           Home
-        </NavLink>
+        </Link>
         <NavLink className="nav-link" to="/projects">
           Projects
         </NavLink>
