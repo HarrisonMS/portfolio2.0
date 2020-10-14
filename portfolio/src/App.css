@@ -49,9 +49,9 @@
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   background-color: rgb(34, 34, 34);
-  position: static; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  z-index: 11;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 .quote-cont {
   display: flex;
