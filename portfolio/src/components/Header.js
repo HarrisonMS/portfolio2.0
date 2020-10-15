@@ -16,9 +16,12 @@ const Header = () => {
         <NavLink className="nav-link" to="/projects">
           Projects
         </NavLink>
-        <NavLink className="nav-link" to="/resume">
+        <a
+          className="nav-link"
+          href="https://gitconnected.com/HarrisonMS/resume"
+        >
           Resume
-        </NavLink>
+        </a>
         <NavLink className="nav-link" to="/contact">
           Contact
         </NavLink>
