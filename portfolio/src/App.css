@@ -79,7 +79,7 @@
 }
 .header-container:hover {
   height: 75px;
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
