@@ -40,7 +40,7 @@ const Home = () => {
               <i className="fas fa-quote-right"></i>
             </div>
             <p>-{quote.quoteAuthor}</p>
-            <button className="nav-link" onClick={getQuote}>
+            <button className="btn-primary" onClick={getQuote}>
               new Quote
             </button>
           </div>
