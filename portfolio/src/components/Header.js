@@ -5,8 +5,15 @@ const Header = () => {
   return (
     <header className="header-container">
       <Link className="header-title" to="/">
+        {/* <h1>
+          H<i className="fas fa-mountain"></i>rrison{" "}
+          <span class="text-secondary">Micheal</span> Se
+          <i className="fas fa-mountain"></i>
+          born
+        </h1> */}
         <h1>
-          Harrison <span class="text-secondary">Micheal</span> Seaborn
+          <i class="fab fa-dev"></i>
+          Harrison <span class="text-secondary">Michael</span> Seaborn
         </h1>
       </Link>
       <nav className="nav-link-cont">

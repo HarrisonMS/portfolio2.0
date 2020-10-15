@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Me from "../img/1095.jpg";
 
 const Home = () => {
   const [quote, setquote] = useState([]);
