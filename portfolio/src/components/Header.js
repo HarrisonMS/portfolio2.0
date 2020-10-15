@@ -29,6 +29,9 @@ const Header = () => {
         >
           Resume
         </a>
+        <NavLink className="nav-link" to="/about">
+          About
+        </NavLink>
         <NavLink className="nav-link" to="/contact">
           Contact
         </NavLink>

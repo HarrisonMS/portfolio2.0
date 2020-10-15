@@ -4,6 +4,7 @@ import Header from "../src/components/Header";
 import Home from "../src/components/Home";
 import Footer from "../src/components/Footer";
 import Projects from "../src/components/Projects";
+import About from "../src/components/About";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
       </div>
     </Router>
