@@ -51,6 +51,22 @@ const Home = () => {
           </h4>
         </div>
       </div>
+      <div classNameName="social-wrap">
+        <div className="social">
+          <a href="#">
+            <i className="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-github fa-2x"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

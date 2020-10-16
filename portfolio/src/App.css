@@ -51,7 +51,7 @@
 }
 .header-container {
   height: 75px;
-  width: 100%;
+  width: 75%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,7 +64,7 @@
 }
 .header-container:hover {
   height: 75px;
-  width: 100%;
+  width: 75%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -229,7 +229,23 @@
 .hero * {
   z-index: 10;
 }
+.social-wrap {
+  display: flex;
+  align-items: center;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
 
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  padding: 0px 10px;
+}
+.social a {
+  padding: 10px 0;
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);

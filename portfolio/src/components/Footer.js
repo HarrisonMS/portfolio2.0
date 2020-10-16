@@ -46,21 +46,7 @@ function Footer(props) {
           </p>
         </div>
       </div>
-      <footer class="footer bg-dark">
-        <div class="social">
-          <a href="#">
-            <i class="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-linkedin fa-2x"></i>
-          </a>
-        </div>
+      <footer className="footer bg-dark">
         <p>Copyright &copy; 2020 - EdgeLedger</p>
       </footer>
     </div>
