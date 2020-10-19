@@ -4,9 +4,31 @@ import { NavLink, Link } from "react-router-dom";
 function Footer(props) {
   return (
     <div className="container">
-      <h2 className="section-title">About Me</h2>
-      <div className="bottom-line"></div>
-      <p className="lead">
+      <h2 className="section-title">Technical Skills</h2>
+      <div className="bottom-line">
+        <ol>
+          <h3>Languages</h3>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Python</p>
+        </ol>
+        <ol>
+          <h3>Front-end</h3>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Python</p>
+        </ol>
+        <ol>
+          <h3>Back-end</h3>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Python</p>
+        </ol>
+      </div>
+      {/* <p className="lead">
         Let me tell you a little about myself and what I do...
       </p>
       <div className="about-info">
@@ -28,24 +50,13 @@ function Footer(props) {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
             magni!
           </p>
-        </div>
-        <div className="award-2">
-          <i className="fas fa-award fa-3x"></i>
-          <h3>Award Two</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            magni!
+            magni! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Ducimus, magni!
           </p>
         </div>
-        <div className="award-3">
-          <i className="fas fa-award fa-3x"></i>
-          <h3>Award Three</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            magni!
-          </p>
-        </div>
-      </div>
+      </div> */}
       <footer className="footer bg-dark">
         <p>Copyright &copy; 2020 - EdgeLedger</p>
       </footer>

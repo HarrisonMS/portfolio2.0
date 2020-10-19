@@ -38,7 +38,7 @@ const Home = () => {
               <p>{quote.quoteText}</p>
               <i className="fas fa-quote-right"></i>
             </div>
-            <p>-{quote.quoteAuthor}</p>
+            <p className="quote-author">-{quote.quoteAuthor}</p>
             <button className="btn-primary" onClick={getQuote}>
               new Quote
             </button>
@@ -47,24 +47,54 @@ const Home = () => {
 
         <div className="home-right-cont">
           <h4 className="home-h4">
-            I'm a Full Stack Web Developer, from Spokane, WA
+            Hello World, My name is Harrison Seaborn and this is my portfolio
+            website built using{" "}
+            <span class="text-react">
+              <i class="fab fa-react"></i> React
+            </span>{" "}
           </h4>
         </div>
       </div>
-      <div classNameName="social-wrap">
+      <div className="social-wrap">
         <div className="social">
-          <a href="#">
-            <i className="fab fa-facebook fa-2x"></i>
+          <a href="mailto:hmseaborn@gmail.com">
+            <i className="fas fa-envelope fa-2x"></i>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/HarrisonSeaborn">
             <i className="fab fa-twitter fa-2x"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/HarrisonMS">
             <i className="fab fa-github fa-2x"></i>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/harrisonmichaelseaborn/">
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
+        </div>
+      </div>
+      <div className="container">
+        <h2 className="section-title">Technical Skills</h2>
+        <div className="bottom-line">
+          <ol>
+            <h3>Languages</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Python</p>
+          </ol>
+          <ol>
+            <h3>Front-end</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Python</p>
+          </ol>
+          <ol>
+            <h3>Back-end</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Python</p>
+          </ol>
         </div>
       </div>
     </div>

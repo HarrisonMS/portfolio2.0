@@ -1,10 +1,23 @@
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   background-color: rgb(0, 0, 0);
+  font-family: "Source Code Pro", monospace;
+  min-height: 100vh;
 }
+body {
+  height: 100vh;
+}
+
 .header-title {
   color: #fff;
   font-family: "Source Code Pro", monospace;
@@ -78,6 +91,14 @@
 .text-secondary {
   color: rgb(255, 72, 0);
 }
+.quote-author {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 20px;
+  font-weight: 100;
+}
+.text-react {
+  color: #61dbfb;
+}
 .fa-quote-left {
   font-size: 16px;
   padding-right: 10px;
@@ -89,14 +110,14 @@
   color: rgb(255, 72, 0);
 }
 .fa-dev {
-  font-size: 36px;
+  font-size: 28px;
   padding-right: 10px;
   color: rgb(255, 72, 0);
 }
 
 .home-container {
   width: 75%;
-  font-family: "Comfortaa", cursive;
+  font-family: "Source Code Pro", monospace;
   display: flex;
   flex-flow: row wrap;
   align-content: start;
@@ -106,7 +127,7 @@
 }
 .home-container-main {
   width: 100%;
-  font-family: "Comfortaa", cursive;
+  font-family: "Source Code Pro", monospace;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -117,7 +138,7 @@
 }
 
 .container {
-  width: 75%;
+  width: 100%;
   background-color: rgb(32, 32, 32);
   color: white;
 }
@@ -131,6 +152,9 @@
   display: flex;
   flex-wrap: nowrap;
   padding: 0 10px;
+}
+.quote-cont p {
+  font-size: calc(12px + 2vmin);
 }
 .home-left-cont-quote {
   width: 45%;
@@ -146,10 +170,13 @@
   padding: 0 30px;
 }
 .home-h4 {
-  font-size: calc(14px + 4vmin);
+  font-size: calc(10px + 4vmin);
 }
 .home-h1 {
   font-size: calc(14px + 10vmin);
+}
+.fa-envelope {
+  color: #9c1200;
 }
 .fa-github {
   color: #333;
@@ -188,10 +215,10 @@
   animation: spin 2s linear infinite;
 }
 .hero {
-  background: url("img/spokane.jpg")
-    /* background: url("https://thinklakeside.com/wp-content/uploads/2020/04/Lakeside-Capital-Management-Spokane-WA.jpg") */
-    no-repeat center center/cover;
-  /* height: 100vh; */
+  background: url("img/spokane.jpg") no-repeat center center/cover;
+  /* background: url("https://thinklakeside.com/wp-content/uploads/2020/04/Lakeside-Capital-Management-Spokane-WA.jpg") */
+
+  height: 100vh;
   position: relative;
   color: #fff;
   width: 75%;
@@ -203,7 +230,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  max-height: 100vh;
   padding: 0 20px;
 }
 
@@ -229,10 +256,10 @@
 .hero * {
   z-index: 10;
 }
-.social-wrap {
+/* .social-wrap {
   display: flex;
   align-items: center;
-}
+} */
 .social {
   display: flex;
   flex-direction: column;
@@ -240,12 +267,18 @@
 
   position: absolute;
   right: 0;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0px 10px;
 }
 .social a {
   padding: 10px 0;
 }
+.bottom-line {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
